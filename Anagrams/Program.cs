@@ -71,11 +71,8 @@ namespace Anagrams
                     r.Add(s, str);    
                 }
 
-               
             }
-
             return new List<string>(r.Values);
-
         }
     }
 }
