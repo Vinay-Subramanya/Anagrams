@@ -25,5 +25,8 @@ namespace Anagrams
             Console.WriteLine("Hello World!");
 
         }
+            return new List<string>(r.Values);
+
+        }
     }
 }
